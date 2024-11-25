@@ -1,9 +1,21 @@
 h1{
-    color:peru;
+    color:white;
     text-align: center;
-    background-color: rgb(255, 255, 255);
-    border: 3px violet;
+    background-color: rgb(83, 75, 75);
+    border: 30px violet;
 }
+Footer{
+    position: fixed;
+    text-align: center;
+    padding-top: 30%;
+    bottom: 0px;
+    width: 96%;
 
+}
+#body1{
+    text-align: center;
+    padding-bottom: 15%;
+    background-color: rgb(199, 199, 199);
+}
 
 
