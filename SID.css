@@ -1,7 +1,6 @@
 h1{
-    color:white;
+    color:rgb(0, 0, 0);
     text-align: center;
-    background-color: rgb(83, 75, 75);
     border: 30px violet;
 }
 Footer{
@@ -15,7 +14,18 @@ Footer{
 #body1{
     text-align: center;
     padding-bottom: 15%;
-    background-color: rgb(199, 199, 199);
+    background-color: rgb(240, 240, 240);
 }
+.container{
+    text-align: center;
+    background-color: #FFCCBC; 
+    margin: auto;
+    border-radius: 20px;
+    width: 500px;
 
+}
+button{
+    background-color: #007bff;
+    text-align: center;
+}
 
