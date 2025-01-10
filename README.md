@@ -3,5 +3,4 @@ The Quote of the Day web application is a full-stack project designed to fetch a
 # Features
 Fetches a new inspirational quote from the API Ninjas Quotes API every time the page loads or the "Get Another Quote" button is clicked.
 Displays the quote along with its author in a clean, responsive user interface.
-Allows users to email themselves a quote via the built-in email functionality powered by a Flask backend and SMTP integration.
-Error handling for API requests to ensure a smooth user experience.
+Looking to allow users to email themselves a quote via the built-in email functionality powered by a Flask backend and SMTP integration.
