@@ -1,46 +1,29 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title> Quote of the Day </title>
-
-<link rel="stylesheet" href="SID.css">
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quote of the Day</title>
+  <link rel="stylesheet" href="SID.css">
 </head>
-
-<div class="container">
-    <h1 >
-        <span>
-            <b>
-                <i>
-            Today's Quote of the Day Is: 
-                </i>
-            </b>
-        </span> 
-    </h1>
-
-</div>
-
-    
-<body id = "body1">
-   <p> 
-        <i>
-        Insert Text Here
-        </i>
-    </p>
-</body>
-Like this quote?
-<button type="button"> Email it To Me</button>
-<footer>
-    <div>
-        There is X until the next quote
+<body>
+  <header>
+    <h1>Quote of the Day</h1>
+  </header>
+  <main class="container">
+    <div id="quote-display" class="quote-box">
+      <p id="quote-text">Loading, Please Wait</p>
+      <p id="quote-author">- Author</p>
     </div>
-
-    <b>
-        This Webiste Was Made by Mahir Shahriar
-    </b>
-</footer>
-
-   <script src="SID.js"></script>
-</body1>
-
+    <button id="new-quote-btn" class="btn">Get Another Quote</button>
+    <div class="email-box">
+      <input type="email" id="email-input" placeholder="Enter your email">
+      <button id="email-quote-btn" class="btn">Email Me This Quote</button>
+    </div>
+  </main>
+  <footer>
+    <p>Made by Mahir Shahriar</p>
+  </footer>
+  <script src="SID.js"></script>
+</body>
 </html>
