@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const emailInput = document.getElementById("email-input");
     const emailQuoteBtn = document.getElementById("email-quote-btn");
   
-    const API_KEY = 'cY5eb2ZW0+vU4L4T0l2Jmg==YzmNfsxnguZmjgAD'; 
+    const API_KEY = 'Key'; //Hidden for GitHub
     const API_URL = 'https://api.api-ninjas.com/v1/quotes';
   
     async function fetchQuote() {
